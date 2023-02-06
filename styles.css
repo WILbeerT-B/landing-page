@@ -1,0 +1,12 @@
+* {
+    border: 1px solid green;
+}
+
+.header-items {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
