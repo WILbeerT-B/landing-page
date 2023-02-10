@@ -159,5 +159,33 @@ button {
 
 
 
+/* call-to-action section */
+
+.cta {
+    
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    width: 800px;
+    padding: 40px;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 36px;
+    
+}
+
+/* footer section */
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color:#E5E7EB
+}
 
 
