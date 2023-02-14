@@ -5,6 +5,7 @@
 body {
     min-height: 100vh;
     margin: 0;
+    font-family: cursive;
 }
 
 /* header section */
@@ -12,7 +13,7 @@ body {
 .header-section {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #683E10;
     justify-content: center;
     color: white;
     padding: 20px 80px 80px 80px;
@@ -21,7 +22,6 @@ body {
 .header-items {
     display: flex;
     margin-bottom: 80px;
-
 }
 
 .header-logo {
@@ -59,6 +59,7 @@ a {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    
 }
 
 .hero-secondary,
@@ -68,14 +69,14 @@ ul li {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #D85512;
     color: white;
     padding: 4px 16px;
     border-radius: 6px;
 }
 
 .herobtn-signup {
-    border: 1px solid #3882F6;
+    border: 1px solid #D85512;
     margin-top: 8px;
 }
 
@@ -89,6 +90,11 @@ button {
 .image-placeholder {
     display: flex;
     justify-content: center;
+}
+
+.image-placeholder > img {
+    width: 586px;
+    height: 300px;
 }
 
 
@@ -122,13 +128,12 @@ button {
 }
 
 .item-image {
-    border: 3px solid #3882F6;
-    
+    border: 3px solid #D85512;
 }
 
 .image-text {
     font-size: 12px;
-    color: gray;
+    color: darkolivegreen;
     margin-top: 12px;
     text-align: center;
     font-family: roboto;
@@ -140,7 +145,7 @@ button {
 .quote-section {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
+    background-color: #E5C263;
     align-items: center;
 }
 
@@ -155,7 +160,7 @@ button {
 }
 
 .quote-text {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
@@ -165,6 +170,7 @@ button {
 .quote-author {
     text-align: right;
     font-weight: bold;
+    padding-top: 8px;
 }
 
 
@@ -177,10 +183,10 @@ button {
 }
 
 .cta-container {
-    background-color: #3882F6;
+    background-color: #D85512;
     width: 600px;
     padding: 40px;
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
     border-radius: 8px;
 }
@@ -197,7 +203,7 @@ button {
 
 /* footer section */
 .footer-section {
-    background-color: #1F2937;
+    background-color: #331f0B;
     padding: 20px;
     text-align: center;
     color:#E5E7EB
